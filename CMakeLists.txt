@@ -47,9 +47,9 @@ message("PCL Include DIRS" ${PCL_INCLUDE_DIRS})
 message("Catkin Libs: " ${catkin_LIBRARIES})
 
 #link_directories("/opt/ros/groovy/lib")
-#link_directories("/opt/ros/indigo/lib")
+link_directories("/opt/ros/indigo/lib")
 #link_directories("/opt/ros/hydro/lib")
-link_directories("/opt/ros/jade/lib")
+#link_directories("/opt/ros/jade/lib")
 
 
 #uncomment if you have defined messages
